@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      .container {
+        width: 460px;
+        height: 200px;
+        display: inline-flexbox;
+      }
+      .Flex {
+        display: flex;
+      }
+      .icons {
+        height: 70%;
+        padding-right: 14px;
+      }
+      .icons1 {
+        display: inline-block;
+      }
+      #whatsapp {
+        width: 18px;
+        height: 18px;
+      }
+      .informations {
+        font-size: 10px;
+        height: 70%;
+      }
+      .inf1 {
+        line-height: 4px;
+      }
+      .inf2 {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: repeat(4, 1fr);
+        line-height: 0px;
+      }
+      #M1 {
+        grid-column-start: 1;
+        grid-column-end: 2;
+        grid-row-start: 1;
+        grid-row-end: 2;
+      }
+      #M2 {
+        grid-column-start: 1;
+        grid-column-end: 2;
+        grid-row-start: 2;
+        grid-row-end: 3;
+      }
+      #T1 {
+        grid-column-start: 1;
+        grid-column-end: 2;
+        grid-row-start: 3;
+        grid-row-end: 4;
+      }
+      #text1 {
+        grid-column-start: 2;
+        grid-column-end: -1;
+        grid-row-start: 1;
+        grid-row-end: 2;
+      }
+      #text2 {
+        grid-column-start: 2;
+        grid-column-end: -1;
+        grid-row-start: 2;
+        grid-row-end: 3;
+      }
+      #text3 {
+        grid-column-start: 2;
+        grid-column-end: -1;
+        grid-row-start: 3;
+        grid-row-end: 4;
+      }
+      #text4 {
+        grid-column-start: 2;
+        grid-column-end: -1;
+        grid-row-start: 4;
+        grid-row-end: 5;
+      }
+      #footer {
+        width: 400px;
+      }
+      #purble-clr {
+        color: purple;
+      }
+    </style>
+  </head>
+  <body>
+    <div style="width: 460px; height: 200px; display: flex">
+      <div class="container">
+        <div class="Flex">
+          <div class="icons">
+            <div><img src="./Razan1_files/image001.png" alt="" /></div>
+            <br />
+            <div class="icons1">
+              <a href="https://maps.app.goo.gl/kZ3JqocL73Nntfsu9"
+                ><img src="./Razan1_files/image002.png" alt="Map"
+              /></a>
+              <a
+                href="https://www.instagram.com/danasystems90?igsh=MWUzaHY0eWtoNm01NQ=="
+                ><img src="./Razan1_files/image003.png" alt="Instagram"
+              /></a>
+              <a href="https://wa.me/message/Z2SABLGT4VXRK1"
+                ><img
+                  id="whatsapp"
+                  src="./Razan1_files/image004.png"
+                  alt="Whatsapp"
+              /></a>
+              <a href="https://www.facebook.com/share/19hVEgoUZP/"
+                ><img src="./Razan1_files/image005.png" alt="Facebook"
+              /></a>
+            </div>
+          </div>
+          <!-------------------------------------------->
+          <div class="informations">
+            <div class="inf1">
+              <h2>MOHANAD JRAIHI</h2>
+              <p>Managing director</p>
+              <p>Mala-Riyadh-KSA</p>
+              <p id="purble-clr">Dana Systems</p>
+              <br />
+              <p>
+                Email:
+                <a href="m.jraihi@danasystems.sa">m.jraihi@danasystems.sa</a>
+              </p>
+              <p>
+                Web:
+                <a href="https://www.danasystems.sa/"
+                  >https://www.danasystems.sa/</a
+                >
+              </p>
+            </div>
+            <br />
+            <div class="inf2">
+              <p id="M1">M: +966 50 673 1252</p>
+              <p id="M2">M: +966 55 091 1600</p>
+              <p id="T1">T: +966 12 663 014</p>
+              <p id="text1">Our branches around the world:</p>
+              <p id="text2">UAE: Abu Dhabi - Dubai - Ajman</p>
+              <p id="text3">KSA: Riyadh - Jeddah</p>
+              <p id="text4">Turkiye: Istanbul</p>
+            </div>
+          </div>
+        </div>
+        <div class="footer">
+          <a href="https://dikitchen.ae/"
+            ><img
+              src="./Razan1_files/image006.jpg"
+              alt="Footer bannir"
+              id="footer"
+          /></a>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
